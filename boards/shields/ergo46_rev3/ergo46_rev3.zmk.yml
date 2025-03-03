@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: ergo46_rev3
+name: ergo46_rev3
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - ergo46_rev3_left
+  - ergo46_rev3_right

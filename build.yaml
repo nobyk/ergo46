@@ -1,12 +1,15 @@
 
 include:
   - board: akdk_bt1
-    shield: ergo46_left
+    shield: ergo46_rev3_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artificial-name: ergo46_left
+    artificial-name: ergo46_rev3_left
   - board: akdk_bt1
-    shield: ergo46_right
+    shield: ergo46_rev3_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artificial-name: Ergo46_right
+    artificial-name: Ergo46-Rev3_right
+  - board: akdk_bt1
+    shield: settings_reset
+    artificial-name: settings_reset-akdk_bt1-zmk
